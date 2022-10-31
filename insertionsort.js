@@ -13,3 +13,4 @@ function insertionSort(array){
   return array
 }
 console.log(insertionSort([1,22,3,4,2,3,76,6,44,3,89,0,1,45,69]));
+
