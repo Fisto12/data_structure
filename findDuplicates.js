@@ -15,4 +15,4 @@ function findDuplicates(arr){
      }
      return duplicates
 }
-console.log(findDuplicates(arr))
+console.log(findDuplicates(arr)) //[4,5]
