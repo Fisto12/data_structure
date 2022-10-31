@@ -17,4 +17,4 @@ function findNonRepeatedNumbers(str){
    //meaning none of the strings repeat
      return -1
 }
-console.log(findNonRepeatedNumbers('211002222991038'));
+console.log(findNonRepeatedNumbers('21100222299108'));

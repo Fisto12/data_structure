@@ -13,4 +13,8 @@ function removeDups(arr) {
        return b
 }
 
-   console.log(removeDups(arr));
+   console.log(removeDups(arr)); //logs [1, 2, 3, 4, 5, 8, 10]
+
+   //sliding window algorithm
+   //double pointer algorithn
+   //bubble sort alogotrithm
