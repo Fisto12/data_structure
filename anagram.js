@@ -5,4 +5,4 @@ function anagram(str1,str2){
 }
 console.log(anagram('hello','loleh')); //true
 console.log(anagram('1234','42312')); //false
-console.log(anagram('qualmz','zlmuaq')); //false
+console.log(anagram('qualmz','zlmuaq')); //true

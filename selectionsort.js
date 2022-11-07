@@ -1,16 +1,41 @@
-function selectionSort(array){
-   for(let i = 0; i < array.length-1; i++){
-    let minIndex = i
-    for(let j= i + 1; j<array.length; j++){
-        if(array[j] < array[minIndex]){
-            minIndex = j
-        }
-    }
-     const temp = array[i]
-     array[i] = array[minIndex];
-     array[minIndex] = temp
-   }
-    return array
-}
+// function selectionDescSort(arr){
+//     for(i=0; i<arr.length; i++){
+//         let minWidth = i
+//         for(let j=i+1; j<arr.length; j++){
+//             if(arr[minWidth] < arr[j]){
+//                 minWidth  = j
+//             }
+//         }
+//         if(minWidth !== i){
+//            let temp = arr[minWidth];
+//            arr[minWidth]= arr[i];
+//            arr[i] = temp
+//         }
+//     }
+//     return arr
+// }
 
-console.log(selectionSort([1,34,23,2,0,66,10,5,11,97,56,44,10]));
+//   console.log(selectionDescSort([50,-10,-20,30,100,15,29,56,47,100,45,600,345]));
+
+
+
+function selectionSort(arr){
+   // from i=o to <arr length
+      for(i = 0; i<arr.length; i++){
+         //assume that the value of i is the least in the array unless otherwise
+          let minIndex = i
+          console.log(i);
+          for(j=i+1; j<arr.length; j++){
+              if(arr[j] < arr[minIndex]){
+                minIndex = j;
+              }
+          }
+          if(minIndex !==  i){
+             let lesser = arr[minIndex]
+             arr[minIndex] = arr[i]
+             arr[i] = lesser
+          }
+      }
+      return arr
+}
+ console.log(selectionSort([50,-10,-20,30,100,15,29,56,47,100,45,600,345]));
