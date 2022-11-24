@@ -16,6 +16,6 @@ function findMax(str){
            maxChars = char
       }
     }
-    return maxChars
+    return max
 }
-console.log(findMax('I LOVE MY MOMMA'));
+console.log(findMax([2,2,2,2,3,3,1,1,1,1,1,1,1,10]));
