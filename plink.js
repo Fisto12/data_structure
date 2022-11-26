@@ -9,6 +9,9 @@ class LinkedList {
     constructor(){
         this.head = null
     }
+    insertFirst(data){
+      this.data = new Node(this.head)
+    }
 }
 
 const list = new LinkedList()

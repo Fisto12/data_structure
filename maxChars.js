@@ -1,4 +1,4 @@
-//find the number appearing the most
+//find the number appearing the most like th mode
 const chars = {};
 let max= 0;
 let maxChars = ''
@@ -16,6 +16,9 @@ function findMax(str){
            maxChars = char
       }
     }
-    return max
+    return maxChars
 }
 console.log(findMax([2,2,2,2,3,3,1,1,1,1,1,1,1,10]));
+
+
+

@@ -5,9 +5,10 @@ function addNumbers(ar){
    for(let i=0; i<ar.length;i++){
     if(typeof ar[i] === 'number'){
          num += ar[i]
-    }else{
-        return 'cant perform operation'
     }
+    else{
+        return 'cant perform operation'
+    } 
      
    }
    return num

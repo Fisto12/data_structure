@@ -29,7 +29,10 @@ class LinkedList {
     while(node){
         counter++
         node= node.next
-    }
+    }const list = new LinkedList();
+list.head = new Node(10)
+console.log(list);
+
     return counter
  }
  getFirst() {
