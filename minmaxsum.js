@@ -18,7 +18,6 @@ function miniMaxSum(arr) {
     return minimum+ " " + maximum
      //console.log(sum-max);    
 }
-console.log(miniMaxSum(arr));
+console.log(miniMaxSum(arr)); // outputs 10 and 14
 
-[2,3,1,4,5,6,12,10]
-[1+2+3+4+5+6+10+12]
+

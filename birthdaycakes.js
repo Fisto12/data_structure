@@ -32,4 +32,4 @@ function birthdayCakeCandles(arr) {
 
     return counter;
 }
-console.log(birthdayCakeCandles([3,2,3,0,2,1,3,3,4,4,5,1,1,1,1,1,1,10]));
+console.log(birthdayCakeCandles([3,2,3,0,2,1,3,3,4,4,5,1,1,1,1,1,1,10,10])); //2
